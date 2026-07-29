@@ -55,10 +55,9 @@ Skin by @celedriell on twt & @celedriel on git
 #greeting .icon img,
 img.icon {
   border-radius: 50% !important;
-  border: 3px solid #8a8a8a !important; /* Borda do ícone aumentada para 3px */
+  border: 3px solid #8a8a8a !important; 
 }
 
-/* --- FUNDO ESCURO UNIFICADO --- */
 #outer.wrapper, 
 body {
   background-color: #1c1c1c;
@@ -87,10 +86,9 @@ body {
 #main .heading,
 #main .heading a,
 .work .heading a {
-  color: #8a8a8a !important;
+  color: #ffffff !important;
 }
 
-/* Removendo as "caixas" dos módulos */
 div.module,
 #dashboard .navigation {
   background-color: transparent !important;
@@ -131,7 +129,7 @@ a,
 a.tag,
 #main a,
 #greeting a.dropdown-toggle {
-  color: #e6e6e6;
+  color: #ffffff;
   text-decoration: none;
   outline: none !important;
 }
@@ -278,13 +276,11 @@ li.warnings a {
   color: #FFFFFF !important;
 }
 
-/* --- TAG DE CASAL (RELATIONSHIPS) EM ROXO CLARINHO --- */
 li.relationships a {
   background-color: #5c3c58 !important;
   color: #ffcef8 !important;
 }
 
-/* --- TAG DE PERSONAGENS (CHARACTERS) EM CINZA CLARINHO --- */
 li.characters a {
   background-color: #3d3d3d !important;
   color: #e6e6e6 !important;
