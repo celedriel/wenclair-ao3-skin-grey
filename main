@@ -278,9 +278,16 @@ li.warnings a {
   color: #FFFFFF !important;
 }
 
+/* --- TAG DE CASAL (RELATIONSHIPS) EM ROXO CLARINHO --- */
 li.relationships a {
-  background-color: #3b2635 !important;
+  background-color: #5c3c58 !important;
   color: #ffcef8 !important;
+}
+
+/* --- TAG DE PERSONAGENS (CHARACTERS) EM CINZA CLARINHO --- */
+li.characters a {
+  background-color: #3d3d3d !important;
+  color: #e6e6e6 !important;
 }
 
 a.tag:hover,
@@ -673,7 +680,6 @@ dl.statistics.meta.group {
   padding: 15px !important;
 }
 
-/* Fundo cinzinha para as linhas das estatísticas */
 .statistics .index li:nth-of-type(2n) {
   background-color: #262626 !important; 
   border-radius: 5px !important;
@@ -685,7 +691,6 @@ dl.statistics.meta.group {
 }
 
 #stat_chart svg {
-  /* Forçando a escala de cinza e clareando um pouco os elementos para combinar */
   filter: grayscale(100%) invert(88%) brightness(120%) contrast(110%) !important;
   border: none !important; 
   background: transparent !important;
@@ -694,5 +699,3 @@ dl.statistics.meta.group {
 .stats-index.dashboard.region .actions.module {
   margin-top: 2em !important;
 }
-
-
