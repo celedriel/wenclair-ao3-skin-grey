@@ -60,8 +60,8 @@ img.icon {
 
 #outer.wrapper, 
 body {
-  background-color: #1c1c1c;
-  color: #e6e6e6;
+  background-color: #1c1c1c !important;
+  color: #e6e6e6 !important;
   overflow-x: hidden;
 }
 
@@ -160,7 +160,6 @@ h1.heading a {
   font-weight: 515;
 }
 
-/* --- MENUS DROPDOWN --- */
 #greeting .menu,
 #header .dropdown .menu,
 #header .dropdown:hover a,
@@ -418,19 +417,8 @@ ol.work.index {
 .filters,
 form#work-filters,
 form#bookmark-filters {
-  background-color: transparent !important;
-  border: 1px solid #1a1a1a !important; 
-  border-radius: 8px !important;
-  padding: 10px !important;
-  box-sizing: border-box !important;
-  box-shadow: none !important;
-}
-
-.filters fieldset {
-  background-color: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  background-color: #1c1c1c !important;
+  border: 1px solid #8a8a8a !important; 
 }
 
 .filters fieldset legend {
@@ -438,69 +426,37 @@ form#bookmark-filters {
   font-weight: bold !important;
 }
 
-.filters .heading {
-  background-color: transparent !important;
+.filters .heading,
+.filters h4.heading {
   color: #ffcef8 !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.filters dl {
-  margin: 0 !important;
-  padding: 0 !important;
   background-color: transparent !important;
 }
 
+/* Abas de filtro retráteis */
 .filters dt {
-  background-color: transparent !important;
-  color: #e6e6e6 !important;
-  border: none !important;
-  border-bottom: 1px solid #1a1a1a !important;
-  padding: 10px 5px !important;
-  margin: 0 !important;
-}
-
-.filters dt.filter-toggle {
   background-color: #262626 !important;
-  border: 1px solid #1a1a1a !important;
-  border-radius: 5px !important;
-  padding: 5px 10px !important;
-  margin-top: 5px !important;
-  border-bottom: none !important;
-  cursor: pointer;
+  color: #e6e6e6 !important;
+  border-bottom: 1px solid #8a8a8a !important;
 }
 
-.filters dt.filter-toggle:hover {
-  background-color: #1a1a1a !important;
+.filters dt:hover {
+  background-color: #3a3a3a !important;
 }
 
-.filters dt.filter-toggle button.expander {
+.filters dt a,
+.filters dt button {
   color: #ffcef8 !important;
   background: transparent !important;
-  border: none !important;
-  outline: none !important;
 }
 
-.filters dt.filter-toggle:hover button.expander {
+.filters dt:hover a,
+.filters dt:hover button {
   color: #ffffff !important;
 }
 
+/* Área interna do filtro expandido */
 .filters dd {
-  background-color: transparent !important;
-  border: none !important;
-  padding: 10px 5px !important;
-  margin: 0 !important;
-  color: #e6e6e6 !important;
-}
-
-.filters dd.expandable {
-  border: 1px solid #1a1a1a !important;
-  border-top: none !important;
-  border-radius: 0 0 5px 5px !important;
-  margin-bottom: 5px !important;
-}
-
-.filters dd ul li {
+  background-color: #1c1c1c !important;
   color: #e6e6e6 !important;
 }
 
@@ -715,28 +671,19 @@ h2.heading a.tag,
 
 dl.statistics.meta.group {
   background-color: #1c1c1c !important; 
-  background-image: none !important;
-  border: none !important; 
-  border-radius: 10px !important;
-  padding: 15px !important;
+  color: #e6e6e6 !important;
+  border: 1px solid #8a8a8a !important;
 }
 
 .statistics .index li:nth-of-type(2n) {
   background-color: #262626 !important; 
-  border-radius: 5px !important;
 }
 
 .statistics .index li strong,
 .statistics .index li {
-  color: #ffcef8 !important;
+  color: #e6e6e6 !important; 
 }
 
 #stat_chart svg {
   filter: grayscale(100%) invert(88%) brightness(120%) contrast(110%) !important;
-  border: none !important; 
-  background: transparent !important;
-}
-
-.stats-index.dashboard.region .actions.module {
-  margin-top: 2em !important;
 }
