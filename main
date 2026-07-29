@@ -659,7 +659,40 @@ h2.heading a.tag,
 #main h2.heading {
   background-color: transparent !important;
   background: transparent !important;
+
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
 }
+
+dl.statistics.meta.group {
+  background-color: #1c1c1c !important; 
+  background-image: none !important;
+  border: none !important; 
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+
+/* Fundo cinzinha para as linhas das estatísticas */
+.statistics .index li:nth-of-type(2n) {
+  background-color: #262626 !important; 
+  border-radius: 5px !important;
+}
+
+.statistics .index li strong,
+.statistics .index li {
+  color: #ffcef8 !important;
+}
+
+#stat_chart svg {
+  /* Forçando a escala de cinza e clareando um pouco os elementos para combinar */
+  filter: grayscale(100%) invert(88%) brightness(120%) contrast(110%) !important;
+  border: none !important; 
+  background: transparent !important;
+}
+
+.stats-index.dashboard.region .actions.module {
+  margin-top: 2em !important;
+}
+
+
