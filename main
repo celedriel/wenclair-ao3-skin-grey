@@ -160,6 +160,7 @@ h1.heading a {
   font-weight: 515;
 }
 
+/* --- MENUS DROPDOWN --- */
 #greeting .menu,
 #header .dropdown .menu,
 #header .dropdown:hover a,
@@ -413,6 +414,7 @@ ol.work.index {
   padding: 0 !important;
 }
 
+
 .filters,
 form#work-filters,
 form#bookmark-filters {
@@ -431,9 +433,14 @@ form#bookmark-filters {
   margin: 0 !important;
 }
 
+.filters fieldset legend {
+  color: #ffcef8 !important;
+  font-weight: bold !important;
+}
+
 .filters .heading {
   background-color: transparent !important;
-  color: #8a8a8a !important;
+  color: #ffcef8 !important;
   border: none !important;
   box-shadow: none !important;
 }
@@ -446,11 +453,36 @@ form#bookmark-filters {
 
 .filters dt {
   background-color: transparent !important;
-  color: #8a8a8a !important;
+  color: #e6e6e6 !important;
   border: none !important;
   border-bottom: 1px solid #1a1a1a !important;
   padding: 10px 5px !important;
   margin: 0 !important;
+}
+
+.filters dt.filter-toggle {
+  background-color: #262626 !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+  margin-top: 5px !important;
+  border-bottom: none !important;
+  cursor: pointer;
+}
+
+.filters dt.filter-toggle:hover {
+  background-color: #1a1a1a !important;
+}
+
+.filters dt.filter-toggle button.expander {
+  color: #ffcef8 !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.filters dt.filter-toggle:hover button.expander {
+  color: #ffffff !important;
 }
 
 .filters dd {
@@ -458,7 +490,20 @@ form#bookmark-filters {
   border: none !important;
   padding: 10px 5px !important;
   margin: 0 !important;
+  color: #e6e6e6 !important;
 }
+
+.filters dd.expandable {
+  border: 1px solid #1a1a1a !important;
+  border-top: none !important;
+  border-radius: 0 0 5px 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.filters dd ul li {
+  color: #e6e6e6 !important;
+}
+
 
 li.message .header,
 li.message .header.module,
