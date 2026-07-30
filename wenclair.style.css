@@ -1,5 +1,6 @@
 /* ===================================
-Skin by @celedriell on twt & @celedriel on git
+skin by @celedriell on twt & @celedriel on git
+header art by @bibinella on twt! tysm <3
 =================================== */
 
 #header {
@@ -20,7 +21,7 @@ Skin by @celedriell on twt & @celedriel on git
 }
 
 #header .logo {
-  content: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pink-logo.png");
+  content: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/pink-logo.png");
 }
 
 #header .heading sup {
@@ -334,6 +335,7 @@ form.search input[type=text],
 form.search input[type=submit] {
   border: 1px solid #8a8a8a !important;
   border-radius: 5px !important;
+  color: #e6e6e6 !important;
 }
 
 .caution {
@@ -490,7 +492,7 @@ svg.icon.kudos-icon {
 }
 
 p.kudos {
-  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/kudos-2.png") !important;
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/kudos.png") !important;
   background-size: 60px !important;
   background-repeat: no-repeat !important;
   background-position: left center !important;
@@ -503,7 +505,7 @@ p.kudos {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/kudos-2.png");
+  background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/kudos.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -513,7 +515,7 @@ p.kudos {
 
 #workskin {
   border: 30px solid transparent; 
-  border-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/raven-wolf-board.png") 25% round;
+  border-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/raven-wolf-board.png") 25% round;
   background-color: transparent; 
   padding: 10px 15px !important; 
   max-width: 100% !important; 
@@ -663,7 +665,6 @@ h2.heading a.tag,
 #main h2.heading {
   background-color: transparent !important;
   background: transparent !important;
-
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
