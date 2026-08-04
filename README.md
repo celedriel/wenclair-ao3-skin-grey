@@ -8,7 +8,7 @@
 
 <div align="center">
 
- **Uma skin minimalista em dark mode para o Archive of Our Own (AO3), com background escuro e detalhes em rosa e cinza.<br>A minimalist dark mode skin for AO3 with pink and gray accents.** 
+ **Uma skin minimalista em dark mode para o AO3, com background escuro e detalhes em rosa e cinza.<br>A minimalist dark mode skin for AO3 with pink and gray accents.** 
 
 </div>
 
