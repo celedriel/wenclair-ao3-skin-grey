@@ -283,12 +283,12 @@ li.relationships a {
 }
 
 li.characters a {
-  background-color: #2c3e50 !important;
+  background-color: #724c6d !important;
   color: #e6e6e6 !important;
 }
 
 li.freeforms a {
-  background-color: #3d3d3d !important;
+  background-color: #4b637a !important;
   color: #e6e6e6 !important;
 }
 
@@ -438,6 +438,7 @@ form#bookmark-filters {
   background-color: transparent !important;
 }
 
+/* Abas de filtro retráteis */
 .filters dt {
   background-color: #262626 !important;
   color: #e6e6e6 !important;
@@ -459,6 +460,7 @@ form#bookmark-filters {
   color: #ffffff !important;
 }
 
+/* Área interna do filtro expandido */
 .filters dd {
   background-color: #1c1c1c !important;
   color: #e6e6e6 !important;
@@ -518,22 +520,24 @@ p.kudos {
   border: 30px solid transparent; 
   border-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/raven-wolf-board.png") 25% round;
   background-color: transparent; 
-  padding: 10px 15px !important; 
+  padding: 10px 5px !important; 
+  width: 100% !important; 
   max-width: 100% !important; 
+  box-sizing: border-box !important;
   margin: 0 auto;
 }
 
 #workskin .userstuff {
   padding: 0 !important; 
+  width: 100% !important; 
   max-width: 100% !important; 
+  box-sizing: border-box !important;
 }
-
 
 #workskin .userstuff p {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 0.75em !important;
+  margin-bottom: 0.75em !important;
 }
-
 
 .actions .menu,
 #main .actions .menu,
