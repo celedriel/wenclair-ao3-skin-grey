@@ -1,5 +1,7 @@
-/* skin by @celedriell on twt & @celedriel on git
-header art by @bibinella on twt! tysm <3  */
+/* ===================================
+skin by @celedriell on twt & @celedriel on git
+header art by @bibinella on twt! tysm <3
+=================================== */
 
 #header {
   background-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/header-bibinella.png") !important;
@@ -24,7 +26,7 @@ header art by @bibinella on twt! tysm <3  */
 
 #header .heading sup {
   visibility: hidden;
-  display: none;
+  display: none; 
 }
 
 #greeting {
@@ -38,7 +40,7 @@ header art by @bibinella on twt! tysm <3  */
   align-items: center !important;
   box-shadow: none !important;
   border: none !important;
-  border-bottom: 1px solid #1a1a1a !important;
+  border-bottom: 1px solid #1a1a1a !important; 
 }
 
 #header .primary {
@@ -54,10 +56,10 @@ header art by @bibinella on twt! tysm <3  */
 #greeting .icon img,
 img.icon {
   border-radius: 50% !important;
-  border: 3px solid #8a8a8a !important;
+  border: 3px solid #8a8a8a !important; 
 }
 
-#outer.wrapper,
+#outer.wrapper, 
 body {
   background-color: #1c1c1c !important;
   color: #e6e6e6 !important;
@@ -79,7 +81,7 @@ body {
 }
 
 .userstuff {
-  line-height: 1.8 !important;
+  line-height: 1.8 !important; 
 }
 
 #main .heading,
@@ -102,14 +104,14 @@ fieldset legend,
 .statistics .heading,
 .filters .heading {
   background-color: transparent !important;
-  color: #8a8a8a !important;
+  color: #8a8a8a !important; 
   border: none !important;
   box-shadow: none !important;
 }
 
 a[rel="author"],
 .byline a {
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
 }
 
 .work.blurb,
@@ -119,7 +121,7 @@ li.blurb,
 .bookmark .user {
   border: none;
   background-color: transparent !important;
-  padding: 15px 10px;
+  padding: 15px 10px; 
   margin-bottom: 15px;
   box-shadow: none;
 }
@@ -138,7 +140,7 @@ a:focus,
 a:active,
 #main a:hover,
 #main a:focus {
-  color: #ffcef8;
+  color: #ffcef8; 
   text-decoration: none;
   background: transparent;
   outline: none !important;
@@ -151,11 +153,11 @@ a.tag:visited,
 .work .heading a:visited,
 a[rel="author"]:visited,
 .byline a:visited {
-  color: #a3a3a3 !important;
+  color: #a3a3a3 !important; 
 }
 
 h1.heading a {
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
   font-weight: 515;
 }
 
@@ -165,14 +167,14 @@ h1.heading a {
 .dropdown,
 .ui-sortable li {
   background: #1c1c1c;
-  border: 1px solid #8a8a8a;
+  border: 1px solid #8a8a8a; 
   color: #e6e6e6;
 }
 
 .dynamic form,
 div.dynamic {
   background: #1c1c1c;
-  border: none !important;
+  border: none !important; 
   color: #e6e6e6;
 }
 
@@ -203,7 +205,7 @@ div.dynamic {
 .current,
 #dashboard .current {
   background: #1a1a1a !important;
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
   border-radius: 5px;
   outline: none !important;
 }
@@ -219,7 +221,7 @@ input[type="submit"],
 .navigation.actions a:link,
 .navigation.actions a:visited {
   color: #8a8a8a !important;
-  background-color: transparent !important;
+  background-color: transparent !important; 
   background-image: none !important;
   border: 1px solid #1a1a1a !important;
   border-radius: 5px !important;
@@ -245,7 +247,7 @@ input[type="submit"]:hover,
 input[type="submit"]:focus,
 .navigation.actions a:hover,
 .navigation.actions a:focus {
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
   background-color: #1a1a1a !important;
   outline: none !important;
 }
@@ -259,7 +261,7 @@ li.freeforms a {
   padding: 1.5px 5px;
   margin: 2.5px 1px;
   border-radius: 4px;
-  color: #e6e6e6 !important;
+  color: #e6e6e6 !important; 
   text-decoration: none;
   border: none;
   background-color: #1a1a1a !important;
@@ -302,7 +304,7 @@ li.characters a:focus,
 li.freeforms a:focus {
   background-color: transparent !important;
   border: none !important;
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
   outline: none !important;
 }
 
@@ -378,12 +380,12 @@ form.search input[type=submit] {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3a3a3a;
+  background: #3a3a3a; 
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8a8a8a;
+  background: #8a8a8a; 
 }
 
 span.submit.actions input.button {
@@ -422,7 +424,7 @@ ol.work.index {
 form#work-filters,
 form#bookmark-filters {
   background-color: #1c1c1c !important;
-  border: 1px solid #8a8a8a !important;
+  border: 1px solid #8a8a8a !important; 
 }
 
 .filters fieldset legend {
@@ -478,7 +480,7 @@ h4.viewed.heading,
   background-color: transparent !important;
   border: none !important;
   border-radius: 5px !important;
-  color: #e6e6e6 !important;
+  color: #e6e6e6 !important; 
 }
 
 .icon {
@@ -513,25 +515,32 @@ p.kudos {
 }
 
 #workskin {
-  border: 30px solid transparent;
+  border: 30px solid transparent; 
   border-image: url("https://raw.githubusercontent.com/celedriel/wenclair-ao3-skin-grey/refs/heads/main/pngs/raven-wolf-board.png") 25% round;
-  background-color: transparent;
-  padding: 10px 15px !important;
-  max-width: 100% !important;
+  background-color: transparent; 
+  padding: 10px 15px !important; 
+  max-width: 100% !important; 
   margin: 0 auto;
 }
 
 #workskin .userstuff {
-  padding: 0 !important;
-  max-width: 100% !important;
+  padding: 0 !important; 
+  max-width: 100% !important; 
 }
+
+
+#workskin .userstuff p {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
 
 .actions .menu,
 #main .actions .menu,
 .action .menu {
   background-color: #1c1c1c !important;
   box-shadow: none !important;
-  border: 1px solid #8a8a8a !important;
+  border: 1px solid #8a8a8a !important; 
 }
 
 #main form dd input[type="text"],
@@ -557,7 +566,7 @@ p.kudos {
 #main form dd p.character_counter,
 #main form dd .footnote,
 #main form dd p {
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
   font-weight: 500 !important;
 }
 
@@ -595,7 +604,7 @@ p.kudos {
 }
 
 .tox .tox-tbtn:hover {
-  background-color: #ffcef8 !important;
+  background-color: #ffcef8 !important; 
 }
 
 .tox .tox-tbtn:hover svg {
@@ -655,7 +664,7 @@ ul.expandable.secondary li a {
 
 ul.expandable.secondary li a:hover,
 ul.expandable.secondary li a:focus {
-  color: #ffcef8 !important;
+  color: #ffcef8 !important; 
   background: transparent !important;
   outline: none !important;
 }
@@ -671,18 +680,18 @@ h2.heading a.tag,
 }
 
 dl.statistics.meta.group {
-  background-color: #1c1c1c !important;
+  background-color: #1c1c1c !important; 
   color: #e6e6e6 !important;
   border: 1px solid #8a8a8a !important;
 }
 
 .statistics .index li:nth-of-type(2n) {
-  background-color: #262626 !important;
+  background-color: #262626 !important; 
 }
 
 .statistics .index li strong,
 .statistics .index li {
-  color: #e6e6e6 !important;
+  color: #e6e6e6 !important; 
 }
 
 #stat_chart svg {
